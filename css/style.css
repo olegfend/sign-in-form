@@ -1,0 +1,126 @@
+body,
+html,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  min-height: 100vh;
+  background-color: #e5eeee;
+}
+
+.ba-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.ba-content {
+  background-image: url(/img/bridge.jpg);
+  max-width: 400px;
+  padding: 50px 70px;
+  box-shadow: 0 0 20px rgba(2, 41, 120, 0.1);
+  position: relative;
+}
+
+.ba-content > div {
+  position: relative;
+}
+
+.ba-content:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(32deg, #3023ae 0%, #c86dd7 100%);
+  opacity: 0.8;
+}
+.ba-navigation ul {
+  display: flex;
+}
+
+.ba-navigation ul li a{
+  font-size: 18px;
+  font-weight: 700;
+  color: #e1c2f1;
+  text-decoration: none;
+}
+
+.ba-navigation ul li.ba-active a{
+  color: #fbf6e4;
+  
+  border-bottom: 2px solid #e66a64;
+}
+
+
+
+
+.ba-navigation ul li:first-child {
+	margin-right: 24px;
+}
+.ba-form {
+  padding-top: 50px;
+}
+
+.ba-form .inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.ba-form label {
+  color: #fbf6e4;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.ba-row {
+  margin-bottom: 15px;
+}
+
+.inputs input {
+  background: none;
+  width: 100%;
+  border: 2px solid rgba(191, 185, 204, 0.54);
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.button button {
+  margin-top: 25px;
+  background-color: #23ae92;
+  color: #fbf6e4;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+  padding: 9px 0;
+  border: none;
+  width: 100%;
+}
+.last-form {
+	display: flex;
+	justify-content: space-between;
+}
+.last-form a {
+  color: #b9b9cc;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
